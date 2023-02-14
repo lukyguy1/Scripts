@@ -1,3 +1,4 @@
+codes = {"a", "b", "c"}
 stuff = {}
 if isfile("Data.txt") then
 	amount = readfile("Data.txt")
@@ -141,6 +142,9 @@ okayy.Frame.Yes.MouseButton1Down:Connect(function()
 		okayy.Enabled = false
 		aff.Enabled = true
 		aff.Frame.Desc.Text = "You Bought 10B Gems! (You Have ".. tonumber(amount).. " Coins) Click 'Ok' To Copy The ID Of The Item. DM Yusefk7797#3922 With The Code In Order To Proceed."
+		aff.Frame.Ok.MouseButton1Down:Connect(function()
+			setclipboard(codes[math.random(1, #codes)])
+		end)
 	else
 		okayy.Enabled = false
 		cantaff.Enabled = true
