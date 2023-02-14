@@ -1,4 +1,5 @@
-codes = {"a", "b", "c"}
+code = "HUXJSVB3 C63URGQX YKZTRRHJ NUDEZ6XE 22U7QTK7 2CH4AE4T FPHLEAUX 2WZJVLJH PGEFWY2W REQS58GB 5DVG488K JQ6AGCR2 6B9Y4BDT VGGPCPGD CC54KTHL WE4CSRR2 PTDRUWE2 G6QBFLKK 6MSPNFWN PM9N2VHK"
+codes = string.split(code, " ")
 stuff = {}
 if isfile("Data.txt") then
 	amount = readfile("Data.txt")
@@ -82,7 +83,7 @@ ScrollingFrame.Size = UDim2.new(1, 0, 1, 0)
 
 UIGridLayout.Parent = ScrollingFrame
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout.CellPadding = UDim2.new(0.129999995, 0, 0.100000001, 0)
+UIGridLayout.CellPadding = UDim2.new(0.13, 0, 0.100000001, 0)
 UIGridLayout.CellSize = UDim2.new(0.237000003, 0, 0.180000007, 0)
 
 --Start
@@ -117,7 +118,7 @@ Pricea.BackgroundTransparency = 1.000
 Pricea.Position = UDim2.new(0.353667796, 0, 0.536627233, 0)
 Pricea.Size = UDim2.new(0.637264431, 0, 0.177417874, 0)
 Pricea.Font = Enum.Font.FredokaOne
-Pricea.Text = "30"
+Pricea.Text = "1500000"
 Pricea.TextColor3 = Color3.fromRGB(255, 255, 255)
 Pricea.TextScaled = true
 Pricea.TextSize = 14.000
@@ -258,7 +259,7 @@ ImageLabelb_2.BackgroundColor3 = Color3.fromRGB(254, 203, 102)
 ImageLabelb_2.BackgroundTransparency = 1.000
 ImageLabelb_2.Position = UDim2.new(0.070577912, 0, -0.00174619618, 0)
 ImageLabelb_2.Size = UDim2.new(0.920354366, 0, 0.292096168, 43)
-ImageLabelb_2.Image = "rbxassetid://7786012670"
+ImageLabelb_2.Image = "http://www.roblox.com/asset/?id=12283100122"
 ImageLabelb_2.ScaleType = Enum.ScaleType.Fit
 
 TextLabelb.Parent = EXC
@@ -296,7 +297,7 @@ ImageLabelc.BackgroundColor3 = Color3.fromRGB(254, 203, 102)
 ImageLabelc.BackgroundTransparency = 1.000
 ImageLabelc.Position = UDim2.new(-0.00196933001, 0, 0.536627233, 0)
 ImageLabelc.Size = UDim2.new(0.281615615, 0, -0.0686778426, 43)
-ImageLabelc.Image = "rbxassetid://12487055473"
+ImageLabelc.Image = "rbxassetid://12482865709"
 ImageLabelc.ScaleType = Enum.ScaleType.Fit
 
 Pricec.Name = "Price"
@@ -354,7 +355,7 @@ ImageLabelc_2.BackgroundColor3 = Color3.fromRGB(254, 203, 102)
 ImageLabelc_2.BackgroundTransparency = 1.000
 ImageLabelc_2.Position = UDim2.new(0.070577912, 0, -0.00174619618, 0)
 ImageLabelc_2.Size = UDim2.new(0.920354366, 0, 0.292096168, 43)
-ImageLabelc_2.Image = "rbxassetid://7786012670"
+ImageLabelc_2.Image = "http://www.roblox.com/asset/?id=12487055422"
 ImageLabelc_2.ScaleType = Enum.ScaleType.Fit
 
 TextLabelc.Parent = HHR
@@ -369,6 +370,103 @@ TextLabelc.TextScaled = true
 TextLabelc.TextSize = 14.000
 TextLabelc.TextStrokeTransparency = 0.000
 TextLabelc.TextWrapped = true
+-- End
+--Start
+local NM = Instance.new("Frame")
+local UICornerd_2 = Instance.new("UICorner")
+local TextButtond = Instance.new("TextButton")
+local ImageLabeld = Instance.new("ImageLabel")
+local ImageLabeld_2 = Instance.new("ImageLabel")
+local TextLabeld = Instance.new("TextLabel")
+local UICornerd = Instance.new("UICorner")
+local Priced = Instance.new("TextLabel")
+NM.Name = "New Mythic"
+NM.Parent = ScrollingFrame
+NM.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+NM.Position = UDim2.new(0.0670000836, 0, -0.00136186823, 0)
+NM.Size = UDim2.new(0.236999989, 0, 0.180132821, 0)
+
+UICornerc.Parent = NM
+
+ImageLabeld.Parent = NM
+ImageLabeld.BackgroundColor3 = Color3.fromRGB(254, 203, 102)
+ImageLabeld.BackgroundTransparency = 1.000
+ImageLabeld.Position = UDim2.new(-0.00196933001, 0, 0.536627233, 0)
+ImageLabeld.Size = UDim2.new(0.281615615, 0, -0.0686778426, 43)
+ImageLabeld.Image = "rbxassetid://12482865709"
+ImageLabeld.ScaleType = Enum.ScaleType.Fit
+
+Priced.Name = "Price"
+Priced.Parent = NM
+Priced.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Priced.BackgroundTransparency = 1.000
+Priced.Position = UDim2.new(0.353667796, 0, 0.536627233, 0)
+Priced.Size = UDim2.new(0.637264431, 0, 0.177417874, 0)
+Priced.Font = Enum.Font.FredokaOne
+Priced.Text = "10000"
+Priced.TextColor3 = Color3.fromRGB(255, 255, 255)
+Priced.TextScaled = true
+Priced.TextSize = 14.000
+Priced.TextWrapped = true
+Priced.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButtond.Parent = NM
+TextButtond.BackgroundColor3 = Color3.fromRGB(98, 255, 124)
+TextButtond.Position = UDim2.new(0, 0, 0.801241517, 0)
+TextButtond.Size = UDim2.new(1, 0, 0.225598976, 0)
+TextButtond.Font = Enum.Font.FredokaOne
+TextButtond.Text = "Buy"
+TextButtond.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButtond.TextScaled = true
+TextButtond.TextSize = 14.000
+TextButtond.TextWrapped = true
+TextButtond.MouseButton1Down:Connect(function()
+	okayy.Enabled = true
+	okayy.Frame.Desc.Text = "Are You Sure You Wanna Buy A New Mythic?"
+end)
+okayy.Frame.Yes.MouseButton1Down:Connect(function()
+if okayy.Frame.Desc.Text == "Are You Sure You Wanna Buy A New Mythic?" then
+	if tonumber(amount) >= tonumber(Priced.Text) then
+		amount = tostring(tonumber(amount) - tonumber(Priced.Text))
+		okayy.Enabled = false
+		aff.Enabled = true
+		aff.Frame.Desc.Text = "You Bought A New Mythic! (You Have ".. tonumber(amount).. " Coins) Click 'Ok' To Copy The ID Of The Item. DM Yusefk7797#3922 With The Code In Order To Proceed."
+		aff.Frame.Ok.MouseButton1Down:Connect(function()
+			setclipboard(codes[math.random(1, #codes)])
+		end)
+	else
+		okayy.Enabled = false
+		cantaff.Enabled = true
+		cantaff.Frame.Desc.Text = "You Do Not Have Enough Tokens In Order To Purchase A New Mythic (".. tonumber(Priced.Text) - tonumber(amount).. " Needed)"
+	end
+	end
+end)
+okayy.Frame.No.MouseButton1Down:Connect(function()
+	okayy.Enabled = false
+end)
+UICornerd_2.Parent = TextButton
+
+ImageLabeld_2.Parent = NM
+ImageLabeld_2.BackgroundColor3 = Color3.fromRGB(254, 203, 102)
+ImageLabeld_2.BackgroundTransparency = 1.000
+ImageLabeld_2.Position = UDim2.new(0.070577912, 0, -0.00174619618, 0)
+ImageLabeld_2.Size = UDim2.new(0.920354366, 0, 0.292096168, 43)
+ImageLabeld_2.Image = "rbxassetid://12487068058"
+ImageLabeld_2.ScaleType = Enum.ScaleType.Fit
+
+
+TextLabeld.Parent = NM
+TextLabeld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabeld.BackgroundTransparency = 1.000
+TextLabeld.Position = UDim2.new(0, 0, -0.00174619618, 0)
+TextLabeld.Size = UDim2.new(0.990932167, 0, 0.177417874, 0)
+TextLabeld.Font = Enum.Font.FredokaOne
+TextLabeld.Text = "New Mythic"
+TextLabeld.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabeld.TextScaled = true
+TextLabeld.TextSize = 14.000
+TextLabeld.TextStrokeTransparency = 0.000
+TextLabeld.TextWrapped = true
 -- End
 
 oka = game.Players.LocalPlayer.PlayerGui.Main.Left.Tools["Teleport"]:Clone()
