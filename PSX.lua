@@ -7,6 +7,19 @@ else
 	writefile("Data.txt", "0")
 	amount = 0
 end
+intro = game.Players.LocalPlayer.PlayerGui.Message:Clone()
+intro.Parent = game.Players.LocalPlayer.PlayerGui
+intro.Name = "XD"
+intro.Frame.Title.Text = "Welcome!"
+intro.Frame.Desc.Text = "Script Maker: builderpremiumvip\nPet Giver: yusefk7878"
+intro.Frame.Yes.Visible = false
+intro.Frame.No.Visible = false
+intro.Frame.Ok.Visible = true
+intro.Enabled = true
+intro.Frame.Ok.MouseButton1Down:Connect(function()
+	intro.Enabled = false
+end)
+
 cantaff = game.Players.LocalPlayer.PlayerGui.Message:Clone()
 cantaff.Parent = game.Players.LocalPlayer.PlayerGui
 cantaff.Name = "XD"
